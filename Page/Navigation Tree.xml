@@ -590,7 +590,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>StockIndex</sch:tableName>
+            <sch:tableName>BankAccount</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>2050</sch:seqIndex>
             <sch:format>沪深300指数</sch:format>
@@ -601,7 +601,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>StockIndex</sch:tableName>
+            <sch:tableName>BankAccount</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>2050</sch:seqIndex>
             <sch:format>%s %s %s</sch:format>
