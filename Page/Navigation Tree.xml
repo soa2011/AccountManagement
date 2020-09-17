@@ -546,10 +546,10 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>SubdictInfo</sch:tableName>
+            <sch:tableName>AccountSchemaElement</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>3030</sch:seqIndex>
-            <sch:format>类目信息</sch:format>
+            <sch:format>Account Elements</sch:format>
             <sch:columns></sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
@@ -557,7 +557,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>SubdictInfo</sch:tableName>
+            <sch:tableName>AccountSchemaElement</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>3030</sch:seqIndex>
             <sch:format>%s</sch:format>

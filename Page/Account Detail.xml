@@ -285,7 +285,7 @@
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>EntitySelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
-            <sch:refTargetType>Individual</sch:refTargetType>
+            <sch:refTargetType>Client</sch:refTargetType>
             <sch:label>ClientId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
