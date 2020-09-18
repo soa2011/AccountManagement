@@ -351,8 +351,8 @@
             <sch:tableName>ReportLineSet</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>2000</sch:seqIndex>
-            <sch:format>Report Line Sets(*)</sch:format>
-            <sch:columns></sch:columns>
+            <sch:format>Report Line Sets(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
             <sch:policyDisplay>true</sch:policyDisplay>
@@ -373,8 +373,8 @@
             <sch:tableName>ReportLine</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>2000</sch:seqIndex>
-            <sch:format>Report Lines(*)</sch:format>
-            <sch:columns></sch:columns>
+            <sch:format>Report Lines(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
             <sch:policyDisplay>true</sch:policyDisplay>
@@ -395,8 +395,8 @@
             <sch:tableName>ReportColumnSet</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>2010</sch:seqIndex>
-            <sch:format>Report Column Sets(*)</sch:format>
-            <sch:columns></sch:columns>
+            <sch:format>Report Column Sets(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
             <sch:policyDisplay>true</sch:policyDisplay>
@@ -417,8 +417,8 @@
             <sch:tableName>ReportColumn</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>2020</sch:seqIndex>
-            <sch:format>Report Columns(*)</sch:format>
-            <sch:columns></sch:columns>
+            <sch:format>Report Columns(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
             <sch:policyDisplay>true</sch:policyDisplay>
@@ -527,8 +527,8 @@
             <sch:tableName>FinancialReport</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>3100</sch:seqIndex>
-            <sch:format>财务报表(*)</sch:format>
-            <sch:columns></sch:columns>
+            <sch:format>财务报表(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
             <sch:policyDisplay>true</sch:policyDisplay>
@@ -549,8 +549,8 @@
             <sch:tableName>AccountSchemaElement</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>3030</sch:seqIndex>
-            <sch:format>Account Elements</sch:format>
-            <sch:columns></sch:columns>
+            <sch:format>Account Elements(%s)</sch:format>
+            <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:policyDisplay>true</sch:policyDisplay>
@@ -561,7 +561,7 @@
             <sch:type>Item</sch:type>
             <sch:seqIndex>3030</sch:seqIndex>
             <sch:format>%s</sch:format>
-            <sch:columns>SubCode</sch:columns>
+            <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:policyDisplay>true</sch:policyDisplay>

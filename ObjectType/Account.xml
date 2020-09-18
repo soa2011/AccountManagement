@@ -122,10 +122,10 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
-            <sch:name>BankAccountId</sch:name>
+            <sch:name>OrgId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description>绑定的银行卡记录</sch:description>
-            <sch:relatedObjectType>BankAccount</sch:relatedObjectType>
+            <sch:relatedObjectType>OrgUnit</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>

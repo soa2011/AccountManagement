@@ -528,15 +528,15 @@
             <sch:eventHandler></sch:eventHandler>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>BankAccountId</sch:name>
+            <sch:name>OrgId</sch:name>
             <sch:seqNumber>290</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
             <sch:widgetType2></sch:widgetType2>
-            <sch:refTargetType>BankAccount</sch:refTargetType>
-            <sch:label>BankAccountId</sch:label>
+            <sch:refTargetType>OrgUnit</sch:refTargetType>
+            <sch:label>OrgId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
