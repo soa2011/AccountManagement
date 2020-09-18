@@ -568,7 +568,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>SubdictConfig</sch:tableName>
+            <sch:tableName>ReportLineSource</sch:tableName>
             <sch:type>Collection</sch:type>
             <sch:seqIndex>3040</sch:seqIndex>
             <sch:format>类目配置</sch:format>
@@ -579,7 +579,7 @@
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
-            <sch:tableName>SubdictConfig</sch:tableName>
+            <sch:tableName>ReportLineSource</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>3040</sch:seqIndex>
             <sch:format>%s</sch:format>
