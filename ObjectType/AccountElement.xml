@@ -1,30 +1,41 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="ChartOfAccountEntity">
-    <sch:name>ChartOfAccountEntity</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="AccountElement">
+    <sch:name>AccountElement</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName>AccountManagement</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryField></sch:primaryField>
-    <sch:primaryKey>TransactionType</sch:primaryKey>
+    <sch:primaryKey></sch:primaryKey>
     <sch:description></sch:description>
     <sch:bmfRelationships>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>ChartOfAccountEntry</sch:name>
+            <sch:name>ChartOfAccount</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>ChartOfAccountEntry</sch:relatedObjectType>
+            <sch:relatedObjectType>ChartOfAccount</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>-1</sch:upperBound>
             <sch:containment>false</sch:containment>
         </sch:BmfObjectRelationship>
+        <sch:BmfObjectRelationship>
+            <sch:type>REF_TO_ONE</sch:type>
+            <sch:name>TreeId</sch:name>
+            <sch:displayName></sch:displayName>
+            <sch:description></sch:description>
+            <sch:relatedObjectType>ReportLine</sch:relatedObjectType>
+            <sch:joinField></sch:joinField>
+            <sch:lowerBound>0</sch:lowerBound>
+            <sch:upperBound>1</sch:upperBound>
+            <sch:containment>false</sch:containment>
+        </sch:BmfObjectRelationship>
     </sch:bmfRelationships>
     <sch:bmfFields>
         <sch:BmfObjectField>
-            <sch:name>EntityCode</sch:name>
+            <sch:name>Name</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>256</sch:length>
@@ -38,10 +49,38 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>TransactionType</sch:name>
+            <sch:name>Type</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>AgreementTransType</sch:enumName>
-            <sch:length>256</sch:length>
+            <sch:enumName>ElementType</sch:enumName>
+            <sch:length>64</sch:length>
+            <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>Description</sch:name>
+            <sch:dataType>Char</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>512</sch:length>
+            <sch:scale></sch:scale>
+            <sch:autoIncrement>false</sch:autoIncrement>
+            <sch:calculated>false</sch:calculated>
+            <sch:encrypted>false</sch:encrypted>
+            <sch:seqStart>0</sch:seqStart>
+            <sch:seqPattern></sch:seqPattern>
+            <sch:calcExpr></sch:calcExpr>
+            <sch:description></sch:description>
+        </sch:BmfObjectField>
+        <sch:BmfObjectField>
+            <sch:name>ValueFormat</sch:name>
+            <sch:dataType>Char</sch:dataType>
+            <sch:enumName></sch:enumName>
+            <sch:length>512</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
