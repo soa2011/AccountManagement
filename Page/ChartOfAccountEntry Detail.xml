@@ -241,7 +241,7 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>ObjectSelector</sch:fieldType>
-            <sch:refTargetType>Account</sch:refTargetType>
+            <sch:refTargetType>ChartOfAccount</sch:refTargetType>
             <sch:label>AccountId</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
