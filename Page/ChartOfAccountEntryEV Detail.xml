@@ -38,7 +38,7 @@
             <sch:refTargetType></sch:refTargetType>
             <sch:label>ElementType</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
-            <sch:domainName>ElementType</sch:domainName>
+            <sch:domainName>AccountElementType</sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>
             <sch:dependency></sch:dependency>
             <sch:defaultValue></sch:defaultValue>
@@ -78,7 +78,7 @@
             <sch:eventHandler></sch:eventHandler>
             <sch:changeType></sch:changeType>
             <sch:changeFields></sch:changeFields>
-            <sch:bmfDomain isRef="true">ElementType</sch:bmfDomain>
+            <sch:bmfDomain isRef="true">AccountElementType</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>FieldExp</sch:name>

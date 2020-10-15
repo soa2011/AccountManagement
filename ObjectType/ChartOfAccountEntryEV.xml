@@ -20,7 +20,7 @@
         <sch:BmfObjectField>
             <sch:name>ElementType</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>ElementType</sch:enumName>
+            <sch:enumName>AccountElementType</sch:enumName>
             <sch:length>256</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
