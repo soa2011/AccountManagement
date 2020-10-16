@@ -131,14 +131,14 @@
             <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
-            <sch:name>AmountField</sch:name>
+            <sch:name>AmountExpr</sch:name>
             <sch:seqNumber>250</sch:seqNumber>
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Text</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
-            <sch:label>AmountField</sch:label>
+            <sch:label>AmountExpr</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
             <sch:domainName></sch:domainName>
             <sch:dynaDomain></sch:dynaDomain>

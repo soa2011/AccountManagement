@@ -493,8 +493,8 @@
             <sch:tableName>ChartOfAccountEntry</sch:tableName>
             <sch:type>Item</sch:type>
             <sch:seqIndex>3000</sch:seqIndex>
-            <sch:format>%s</sch:format>
-            <sch:columns>DebitCredit</sch:columns>
+            <sch:format>%s %s</sch:format>
+            <sch:columns>DebitCredit,AccountId</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
             <sch:description></sch:description>
